@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import './EncryptionCard.css'
 
-const API_URL = 'http://localhost:3000'
+const API_URL = 'https://security-api.balajisankaran.online'
 
 function EncryptionCard({ algorithm }) {
   // Encrypt section state
